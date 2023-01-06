@@ -1,4 +1,6 @@
 import { GetServerSideProps } from "next";
+import {withSSRContext} from "aws-amplify"
+import Link from "next/link";
 
 type ISSRPageProps = {
   formattedDate: number;
@@ -12,7 +14,7 @@ const SSRPage = ({ formattedDate }: ISSRPageProps) => {
         This page is server-side rendered. It was rendered on {formattedDate}.
       </p>
       <p>
-        <a href="/staticExample">View a static page.</a>
+        <Link href="/staticExample"> View static page </Link>
       </p>
     </>
   );
