@@ -1,0 +1,12 @@
+{
+  "resourceName": "s3carouselstorageeeaac772",
+  "bucketName": "carousel-storage-eeaac772",
+  "policyUUID": "d5de8a28",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ]
+}
