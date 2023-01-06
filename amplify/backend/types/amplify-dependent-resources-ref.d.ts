@@ -1,6 +1,6 @@
 export type AmplifyDependentResourcesAttributes = {
   "auth": {
-    "carouselcfc315e5": {
+    "carousel25a698ed": {
       "AppClientID": "string",
       "AppClientIDWeb": "string",
       "IdentityPoolId": "string",
@@ -11,7 +11,7 @@ export type AmplifyDependentResourcesAttributes = {
     }
   },
   "storage": {
-    "s3carouselstorageeeaac772": {
+    "storage": {
       "BucketName": "string",
       "Region": "string"
     }

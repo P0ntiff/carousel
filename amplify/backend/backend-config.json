@@ -1,6 +1,6 @@
 {
   "auth": {
-    "carouselcfc315e5": {
+    "carousel25a698ed": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
@@ -27,8 +27,33 @@
       "service": "Cognito"
     }
   },
+  "hosting": {
+    "amplifyhosting": {
+      "lastPushTimeStamp": "2023-01-06T06:04:40.420Z",
+      "service": "amplifyhosting",
+      "type": "cicd"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_hosting_amplifyhosting_appId": {
+      "usedBy": [
+        {
+          "category": "hosting",
+          "resourceName": "amplifyhosting"
+        }
+      ]
+    },
+    "AMPLIFY_hosting_amplifyhosting_type": {
+      "usedBy": [
+        {
+          "category": "hosting",
+          "resourceName": "amplifyhosting"
+        }
+      ]
+    }
+  },
   "storage": {
-    "s3carouselstorageeeaac772": {
+    "storage": {
       "dependsOn": [],
       "providerPlugin": "awscloudformation",
       "service": "S3"

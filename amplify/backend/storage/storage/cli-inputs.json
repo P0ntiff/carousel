@@ -1,0 +1,12 @@
+{
+  "resourceName": "storage",
+  "policyUUID": "e8fd102c",
+  "bucketName": "carousel-image-storage",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
