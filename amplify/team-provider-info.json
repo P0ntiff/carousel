@@ -12,17 +12,17 @@
       "AmplifyAppId": "d2gz7kx4hgr59i"
     },
     "categories": {
-      "hosting": {
-        "amplifyhosting": {
-          "appId": "d2gz7kx4hgr59i",
-          "type": "cicd"
-        }
-      },
       "auth": {
         "carousel25a698ed": {}
       },
       "storage": {
         "storage": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2gz7kx4hgr59i",
+          "type": "cicd"
+        }
       }
     }
   }
