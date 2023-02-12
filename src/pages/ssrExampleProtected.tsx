@@ -14,7 +14,7 @@ const SSRPage = ({ formattedDate, authenticated, username }: ISSRPageProps) => {
   }
   return (
     <>
-      <h1>Server-side rendered page</h1>
+      <h1>Server-side rendered page behind auth</h1>
       <p>
         This page is server-side rendered. It was rendered on {formattedDate}.
         Your username is {username}
@@ -28,7 +28,7 @@ const SSRPage = ({ formattedDate, authenticated, username }: ISSRPageProps) => {
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
   const renderDate = Date.now();
-  const formattedDate = new Intl.DateTimeFormat("en-US", {
+  const formattedDate = new Intl.DateTimeFormat("en-AU", {
     dateStyle: "long",
     timeStyle: "long",
   }).format(renderDate);

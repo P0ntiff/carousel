@@ -34,6 +34,9 @@ const Home = ({ signOut, user }: WithAuthenticatorProps) => {
           <p>
             <Link href="/ssrExample"> Link to SSR example</Link>
           </p>
+          <p>
+            <Link href="/ssrExample"> Link to SSR example</Link>
+          </p>
         </div>
 
         <div className={styles.grid}>

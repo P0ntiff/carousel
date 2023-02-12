@@ -22,7 +22,7 @@ const SSRPage = ({ formattedDate }: ISSRPageProps) => {
 
 export const getServerSideProps: GetServerSideProps = async () => {
   const renderDate = Date.now();
-  const formattedDate = new Intl.DateTimeFormat("en-US", {
+  const formattedDate = new Intl.DateTimeFormat("en-AU", {
     dateStyle: "long",
     timeStyle: "long",
   }).format(renderDate);

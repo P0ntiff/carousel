@@ -21,7 +21,7 @@ const StaticPage = ({ formattedDate } : IStaticPageProps) => {
 export const getStaticProps: GetStaticProps = () => {
   const buildDate = Date.now();
 
-  const formattedDate = new Intl.DateTimeFormat("en-US", {
+  const formattedDate = new Intl.DateTimeFormat("en-AU", {
     dateStyle: "long",
     timeStyle: "long",
   }).format(buildDate);
