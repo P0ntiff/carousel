@@ -29,13 +29,13 @@ const Home = ({ signOut, user }: WithAuthenticatorProps) => {
         </div>
         <div>
           <p>
-            <Link href="/staticExample"> Link to static page example</Link>
+            <Link href="/staticExample"> Link to static page</Link>
           </p>
           <p>
-            <Link href="/ssrExample"> Link to SSR example</Link>
+            <Link href="/ssrExample"> Link to SSR page</Link>
           </p>
           <p>
-            <Link href="/ssrExample"> Link to SSR example</Link>
+            <Link href="/ssrExampleProtected"> Link to SSR protected page</Link>
           </p>
         </div>
 
